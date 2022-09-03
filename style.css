@@ -1,0 +1,16 @@
+img {
+    width: 500px;
+    height: 500px;
+}
+
+.travel_maindiv {
+    border: 1px solid lightgray;
+}
+
+.travel_maindiv img {
+    width: 100%;
+}
+
+.travel_maindiv h5 {
+    margin: 20px;
+}
