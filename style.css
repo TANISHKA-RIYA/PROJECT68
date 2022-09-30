@@ -1,29 +1,54 @@
+body {
+    text-align: center;
+}
+
+#welcome {
+    color: #FFFFFF;
+    bottom: 0;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
+}
+
 #contact iframe {
     width: 100%;
 }
 
-.travelling {
-    border: 1px solid gray;
-    padding-left: 0px;
-    padding-right: 0px;
-    float: none;
+.contact_1 h3 {
+    display: inline;
 }
 
-.travelling img {
-    width: 100%;
+.contact_1 a {
+    text-shadow: none;
 }
 
-.movie_text span {
-    color: yellow;
+#videos iframe {
+    width: 80%;
 }
 
-.movie_head i {
-    float: right;
-}
-
-.movie_head {
-    font-size: 20px;
-    padding: 10PX;
-    margin-bottom: 10px;
-    border-radius: 20pX;
+.nav_bar {
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
